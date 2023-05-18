@@ -1,0 +1,59 @@
+● What is Emmet?
+--> It is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSLT and other strudtured code formates via content 
+    assist.
+--> It is independent from text editor. It only provides facility to text editor.
+--> It allows you to type shortcuts that are then expanded into full pieces of code.
+
+● Difference between a Library and Framework?
+--> Library - "It just takes minnimum efforts to put inside our code."
+            - A library is a collection of prewritten code that can be used to simplify tasks. The term library simply refers to a collection of code that is 
+              reused repeatedly. 
+            - It is essentially a set of pre-defined functions and classes that programmers can use to simplify their work and speed up the development process. 
+            - So, developers do not have to write code to accomplish specific functionality because the library already includes code for those functionalities. 
+              Standard libraries are available with most programming languages, but programmers can also make their own custom libraries.
+              
+--> Framework - Developers need not start from scratch when they have tools to assist them like Frameworks.
+              - A framework is like the foundation upon which developers build applications for specific platforms. It includes reusable pieces of code written 
+                to perform common tasks and uses code provided by a developer for custom functionality. 
+              - The framework may include defined and undefined objects and functions that developers can use to create applications. 
+              - In that way, we can add significant functionality to the system by using existing code around the structure. 
+
+● What is CDN? Why do we use it?
+--> CDN can stand for content delivery network or content distribution network.
+--> A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications.
+--> CDNs improve content delivery speed, reduce latency, enhance user experience, ensure global availability, and offer scalability and security benefits. 
+    These advantages make CDNs an essential component of modern web infrastructure, particularly for websites, streaming platforms, and other content-heavy 
+    applications.
+    
+● Why is React known as React?
+--> The name "React" reflects the reactive nature of the library. In traditional web development, when data changes, developers typically have to manually 
+    update the DOM (Document Object Model) to reflect those changes. This process can be complex and inefficient, especially for large and dynamic applications.
+--> React introduced a new approach by using a virtual DOM. The virtual DOM is a lightweight representation of the actual DOM, and React uses it to efficiently 
+    determine and apply the minimal set of updates needed to reflect changes in the data. This approach allows React to optimize the rendering process,
+    resulting in improved performance.
+--> The concept of reacting to data changes and efficiently updating the UI is what gave rise to the name "React." It emphasizes the library's ability to 
+    efficiently handle state changes and automatically update the UI components, making it easier for developers to build interactive and responsive user 
+    interfaces.
+    
+● What is crossorigin in script tag?
+--> The crossorigin attribute in the <script> tag is used to specify how the browser should handle cross-origin requests when fetching an external JavaScript 
+    file. Cross-origin requests occur when a web page tries to access resources (such as scripts, stylesheets, or images) from a different domain, protocol, 
+    or port than the one it originated from.
+--> When including an external JavaScript file using the <script> tag, you can use the crossorigin attribute to control how the browser should handle the loading 
+    of the script and whether it should enforce cross-origin security policies.
+
+● What is diference between React and ReactDOM
+--> React is the core library for building UI components and managing their state, while ReactDOM is a package that facilitates the rendering of those React 
+    components into the browser's DOM. ReactDOM works closely with React to update the actual DOM efficiently based on the changes in the virtual DOM.
+--> React is core library and ReactDOM is used for doing browser related stuff. 
+
+● What is difference between react.development.js and react.production.js files via CDN?
+--> When developing a React application, it is common to use the development version (react.development.js) to take advantage of the additional debugging 
+    capabilities and detailed error messages. However, when deploying the application to a production environment, it is recommended to use the production 
+    version (react.production.js) for its smaller size and optimized performance.
+
+● What is async and defer?
+--> When we load the web page then there are two major things happening in our browser:
+    1) HTML parsing
+    2) Loading of the script  --> It contains two parts, i) fetching the script from the network and
+                                                        ii) executing script line by line
